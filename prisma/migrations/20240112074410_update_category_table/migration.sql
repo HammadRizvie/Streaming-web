@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Categories" ALTER COLUMN "rating" SET DEFAULT 0,
+ALTER COLUMN "capacity" SET DEFAULT 1,
+ALTER COLUMN "minThreshold" SET DEFAULT 100;
